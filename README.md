@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in Groovy related to implicit type coercion and null handling. The `calculate` function throws an `IllegalArgumentException` if either input is null.  However, the implicit nature of Groovy's type system can make it difficult to anticipate such exceptions.
+
+The bug is showcased in the `bug.groovy` file. The solution, provided in `bugSolution.groovy`, demonstrates how to explicitly check for null values and handle them appropriately.
